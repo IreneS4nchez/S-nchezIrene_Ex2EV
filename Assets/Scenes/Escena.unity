@@ -1152,6 +1152,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1522065178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522065172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4215a45fb246a144a4d34b37ec812ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  rotationSpeed: 10
+  gravedad: -9.81
 --- !u!1 &1605510648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2242,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ab72e156a84506e45bdacad98911f610, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1522065177}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ab72e156a84506e45bdacad98911f610, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1522065178}
   m_SourcePrefab: {fileID: 100100000, guid: ab72e156a84506e45bdacad98911f610, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
